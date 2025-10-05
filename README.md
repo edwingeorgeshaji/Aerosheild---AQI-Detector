@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/AeroShield-AQI-Detector/main/assets/aeroshield-banner.png" alt="AeroShield Banner" width="100%" />
+</p>
+
 # 🌍 **AeroShield – Advanced AQI Detection Dashboard**
 
 > **Real-time Air Quality Intelligence for a Healthier Planet.**
@@ -9,24 +13,22 @@
 [![Frontend: Leaflet.js](https://img.shields.io/badge/Frontend-Leaflet.js-brightgreen?logo=leaflet)](https://leafletjs.com)
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-
 AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes **Air Quality Index (AQI)** metrics in real-time using the **OpenWeatherMap Air Pollution API**. It empowers global users to monitor air quality, analyze trends, and make informed health decisions — all through an elegant and interactive dashboard.
 
-
-
-## 🚀 **Overview**
-
-AeroShield delivers a seamless, interactive experience for visualizing AQI data through **maps, charts, heatmaps, and adaptive health guidance**. It’s an innovative solution promoting environmental awareness and sustainability through data-driven insights.
-
-
+---
 
 ## ⚙️ **Tech Stack at a Glance**
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,chartjs,leaflet,git,github,vscode" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,git,github,vscode" alt="Tech Stack Icons" />
 </p>
 
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leaflet/leaflet-original.svg" width="48" height="48" alt="Leaflet.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" width="48" height="48" alt="Chart.js"/>
+</p>
 
+---
 
 ## ✨ **Key Features**
 
@@ -71,21 +73,6 @@ AeroShield delivers a seamless, interactive experience for visualizing AQI data 
 | **Environment Config** | dotenv                               |
 | **Security**           | CORS Middleware                      |
 | **Data Source**        | OpenWeatherMap API                   |
-
----
-
-## 🧩 **Project Structure**
-
-```
-AeroShield-AQI-Detector/
-│
-├── index.html            # User interface
-├── style.css             # Styling & theme
-├── main.js               # Core AQI logic
-├── server.js             # Express API backend
-├── package.json          # Dependencies & scripts
-└── README.md             # Documentation
-```
 
 ---
 
@@ -138,15 +125,6 @@ Open `index.html` in a browser or run via VS Code Live Server.
 ## 📜 **License**
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
-
----
-
-## 🔮 **Future Enhancements**
-
-* 🤖 AI-driven AQI prediction.
-* 📱 Progressive Web App (PWA) version.
-* 🗓️ Historical AQI data explorer.
-* 🧑‍🤝‍🧑 Community-based pollution reporting.
 
 ---
 
