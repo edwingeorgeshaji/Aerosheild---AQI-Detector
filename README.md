@@ -13,7 +13,7 @@
 
 AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes **Air Quality Index (AQI)** metrics in real-time using the **OpenWeatherMap Air Pollution API**. It empowers global users to monitor air quality, analyze trends, and make informed health decisions — all through an elegant and interactive dashboard.
 
----
+
 
 ## 🚀 **Overview**
 
