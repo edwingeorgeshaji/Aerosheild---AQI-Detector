@@ -18,7 +18,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 
 AeroShield delivers a seamless, interactive experience for visualizing AQI data through **maps, charts, heatmaps, and adaptive health guidance**. It’s an innovative solution promoting environmental awareness and sustainability through data-driven insights.
 
----
+
 
 ## ⚙️ **Tech Stack at a Glance**
 
