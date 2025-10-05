@@ -26,7 +26,7 @@ AeroShield delivers a seamless, interactive experience for visualizing AQI data 
   <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,chartjs,leaflet,git,github,vscode" alt="Tech Stack Icons" />
 </p>
 
----
+
 
 ## ✨ **Key Features**
 
