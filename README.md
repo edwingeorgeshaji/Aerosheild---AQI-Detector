@@ -1,5 +1,6 @@
 # 🌍 **AeroShield – Advanced AQI Detection Dashboard**
 
+> **Real-time Air Quality Intelligence for a Healthier Planet.**
 
 [![NASA Space Apps 2025](https://img.shields.io/badge/NASA%20Space%20Apps-2025-blue?logo=nasa\&logoColor=white)](https://www.spaceappschallenge.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,7 +9,6 @@
 [![Frontend: Leaflet.js](https://img.shields.io/badge/Frontend-Leaflet.js-brightgreen?logo=leaflet)](https://leafletjs.com)
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-> **Real-time Air Quality Intelligence for a Healthier Planet.**
 
 AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes **Air Quality Index (AQI)** metrics in real-time using the **OpenWeatherMap Air Pollution API**. It empowers global users to monitor air quality, analyze trends, and make informed health decisions — all through an elegant and interactive dashboard.
 
