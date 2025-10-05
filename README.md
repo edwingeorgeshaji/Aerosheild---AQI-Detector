@@ -2,7 +2,7 @@
 
 <div align = "center">
 
-> **Real-time Air Quality Intelligence for a Healthier Planet.**
+> **Team WalkBy**
 
 [![NASA Space Apps 2025](https://img.shields.io/badge/NASA%20Space%20Apps-2025-blue?logo=nasa\&logoColor=white)](https://www.spaceappschallenge.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
