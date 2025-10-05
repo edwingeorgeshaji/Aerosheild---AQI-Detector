@@ -59,6 +59,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 ---
 
 ## 🧠 **Technology Overview**
+<div align = "center">
 
 | Layer                  | Tools & Libraries                    |
 | ---------------------- | ------------------------------------ |
@@ -69,6 +70,8 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 | **Environment Config** | dotenv                               |
 | **Security**           | CORS Middleware                      |
 | **Data Source**        | OpenWeatherMap API                   |
+
+</div>
 
 ---
 
