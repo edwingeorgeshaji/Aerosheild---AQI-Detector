@@ -102,11 +102,12 @@ Open `index.html` in a browser or run via VS Code Live Server.
 
 | Role               | Contributor                                  |
 | ------------------ | -------------------------------------------- |
-| Project Lead       | [Your Name](https://github.com/yourusername) |
-| Backend Developer  | NASA Space Apps 2025 Team                    |
-| Frontend Developer | [Team Member Name]                           |
-| UI/UX Designer     | [Contributor Name]                           |
-| API Provider       | [OpenWeatherMap](https://openweathermap.org) |
+| Project Lead       | [Karthik Raj](https://github.com/karthikrajj) |
+| Backend Developer I | [Edwin George Shaji](https://github.com/edwingeorgeshaji) |
+| Backend Developer II | [Joshin K Thomas](https://github.com/Joshin-07) |
+| Frontend Developer I | [Mariam Skaria](https://github.com/MariamSkaria) |
+| Frontend Developer II | [Junia Alex](https://github.com/JuniaAlex) |
+| UI/UX Designer     | [Malavika Krishnan](https://github.com/Malavika-Krishnan)                           |
 
 ---
 
