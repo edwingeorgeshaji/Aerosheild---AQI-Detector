@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/AeroShield-AQI-Detector/main/assets/aeroshield-banner.png" alt="AeroShield Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/edwingeorgeshaji/AeroShield-AQI-Detector/main/assets/aeroshield-banner.png" alt="AeroShield Banner" width="100%" />
 </p>
 
 # 🌍 **AeroShield – Advanced AQI Detection Dashboard**
