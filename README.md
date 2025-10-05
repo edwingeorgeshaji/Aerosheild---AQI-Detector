@@ -134,5 +134,8 @@ Open `index.html` in a browser or run via VS Code Live Server.
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
 
 ---
+<div align = "center">
+  
+> *"Collaborating for a cleaner atmosphere — Team WalkBy."* 🚀
 
-> *"Collaborating for a cleaner atmosphere — AeroShield, powered by NASA Space Apps 2025."* 🚀
+</div>
