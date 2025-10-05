@@ -20,7 +20,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leaflet/leaflet-original.svg" width="48" height="48" alt="Leaflet.js"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" width="48" height="48" alt="Chart.js"/>
 </p>
 
