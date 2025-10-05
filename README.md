@@ -1,14 +1,33 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/AeroShield-AQI-Detector/main/assets/aeroshield-banner.png" alt="AeroShield Banner" width="100%" />
+</p>
+
 # 🌍 **AeroShield – Advanced AQI Detection Dashboard**
 
 > **Real-time Air Quality Intelligence for a Healthier Planet.**
 
-AeroShield is a sophisticated, data-driven web application that visualizes **Air Quality Index (AQI)** metrics in real-time using the **OpenWeatherMap Air Pollution API**. Designed for global accessibility and environmental awareness, it empowers users to monitor air quality, analyze patterns, and make informed health decisions.
+[![NASA Space Apps 2025](https://img.shields.io/badge/NASA%20Space%20Apps-2025-blue?logo=nasa\&logoColor=white)](https://www.spaceappschallenge.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-brightgreen?logo=node.js\&logoColor=white)](https://nodejs.org/)
+[![OpenWeatherMap API](https://img.shields.io/badge/API-OpenWeatherMap-orange?logo=openweathermap)](https://openweathermap.org/api)
+[![Frontend: Leaflet.js](https://img.shields.io/badge/Frontend-Leaflet.js-brightgreen?logo=leaflet)](https://leafletjs.com)
+[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes **Air Quality Index (AQI)** metrics in real-time using the **OpenWeatherMap Air Pollution API**. It empowers global users to monitor air quality, analyze trends, and make informed health decisions — all through an elegant and interactive dashboard.
 
 ---
 
 ## 🚀 **Overview**
 
-AeroShield delivers a seamless, interactive experience for visualizing AQI data through **maps, charts, and health recommendations**. It features location-based insights, predictive trends, and dynamic visuals that bring environmental data to life.
+AeroShield delivers a seamless, interactive experience for visualizing AQI data through **maps, charts, heatmaps, and adaptive health guidance**. It’s an innovative solution promoting environmental awareness and sustainability through data-driven insights.
+
+---
+
+## ⚙️ **Tech Stack at a Glance**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,chartjs,leaflet,git,github,vscode" alt="Tech Stack Icons" />
+</p>
 
 ---
 
@@ -16,182 +35,122 @@ AeroShield delivers a seamless, interactive experience for visualizing AQI data 
 
 ### 🗺️ **Interactive Global Map**
 
-* Real-time air quality visualization via **Leaflet.js** and **OpenStreetMap**.
-* Integrated **GeoSearch** for global address or city lookup.
-* Clickable map locations displaying current AQI, PM2.5 concentration, and health category.
+* Live AQI data rendered via **Leaflet.js** and **OpenStreetMap**.
+* Integrated **GeoSearch** for address or city lookup.
+* Clickable markers displaying AQI, PM2.5, and risk category.
 
-### 📈 **Dynamic AQI Analytics**
+### 📈 **24-Hour AQI Trend Analytics**
 
-* 24-hour AQI trend chart powered by **Chart.js**.
-* Responsive design for desktop and mobile users.
+* Historical AQI visualization with **Chart.js**.
+* Fully responsive for desktop and mobile.
 
-### ⚕️ **Personalized Health Recommendations**
+### ⚕️ **Smart Health Recommendations**
 
-* Adaptive health guidance tailored to AQI severity levels.
-* Highlights sensitive groups and provides actionable advice.
+* Dynamic health advice based on AQI severity.
+* Clear guidance for sensitive groups.
 
 ### 🔥 **Heatmap Visualization**
 
-* Real-time regional heat intensity display for comparative analysis.
+* Real-time AQI intensity map overlay.
 
-### 🌓 **Smart Theme Switching**
+### 🌓 **Dark/Light Mode**
 
-* Smooth dark/light mode transition.
-* Persistent theme preference stored via `localStorage`.
+* Smooth transitions with local storage memory.
 
-### 📍 **Location Awareness**
+### 📍 **Smart Geolocation**
 
-* One-click geolocation feature for instant local AQI detection.
-
----
-
-## 🧠 **Technology Stack**
-
-| Category                      | Technologies                                     |
-| ----------------------------- | ------------------------------------------------ |
-| **Frontend**                  | HTML5, CSS3, JavaScript (Vanilla)                |
-| **Mapping & Geolocation**     | Leaflet.js, OpenStreetMap, GeoSearch, Heatmap.js |
-| **Data Visualization**        | Chart.js                                         |
-| **Backend**                   | Node.js, Express.js                              |
-| **Environment Configuration** | dotenv                                           |
-| **Security & Network**        | CORS Middleware                                  |
-| **Data Source**               | OpenWeatherMap Air Pollution API                 |
+* One-click local AQI detection and mapping.
 
 ---
 
-## 🧩 **Project Architecture**
+## 🧠 **Technology Overview**
+
+| Layer                  | Tools & Libraries                    |
+| ---------------------- | ------------------------------------ |
+| **Frontend**           | HTML5, CSS3, JavaScript              |
+| **Mapping**            | Leaflet.js, OpenStreetMap, GeoSearch |
+| **Visualization**      | Chart.js, Heatmap.js                 |
+| **Backend**            | Node.js, Express.js                  |
+| **Environment Config** | dotenv                               |
+| **Security**           | CORS Middleware                      |
+| **Data Source**        | OpenWeatherMap API                   |
+
+---
+
+## 🧩 **Project Structure**
 
 ```
 AeroShield-AQI-Detector/
 │
-├── index.html            # Core dashboard UI
-├── style.css             # Theme, layout, and animations
-├── main.js               # Main frontend logic and AQI handling
-├── script.js             # Alternate AQI visualization script
-├── server.js             # Express backend and API routing
-├── package.json          # Node.js project configuration
-├── package-lock.json     # Dependency lockfile
+├── index.html            # User interface
+├── style.css             # Styling & theme
+├── main.js               # Core AQI logic
+├── server.js             # Express API backend
+├── package.json          # Dependencies & scripts
 └── README.md             # Documentation
 ```
 
 ---
 
-## ⚙️ **Setup & Installation**
-
-### 1️⃣ **Clone the Repository**
+## 🧭 **Installation & Setup**
 
 ```bash
 git clone https://github.com/yourusername/AeroShield-AQI-Detector.git
 cd AeroShield-AQI-Detector
-```
-
-### 2️⃣ **Install Dependencies**
-
-```bash
 npm install
 ```
 
-### 3️⃣ **Configure Environment Variables**
-
-Create a `.env` file in the project root:
+Create a `.env` file:
 
 ```env
 OWM_KEY=your_openweathermap_api_key_here
 ```
 
-### 4️⃣ **Run the Backend Server**
+Run the backend server:
 
 ```bash
 npm start
 ```
 
-Server will start at: **[http://localhost:5010](http://localhost:5010)**
+Server runs at **[http://localhost:5010](http://localhost:5010)**.
 
-### 5️⃣ **Launch the Frontend**
-
-Open `index.html` directly in your browser, or use a local server (e.g., VS Code Live Server).
+Open `index.html` in a browser or run via VS Code Live Server.
 
 ---
 
-## 📡 **API Endpoints**
-
-**Base URL:** `https://api.openweathermap.org/data/2.5/air_pollution`
-
-| Endpoint                                                             | Description                    |
-| -------------------------------------------------------------------- | ------------------------------ |
-| `/air_pollution?lat={lat}&lon={lon}`                                 | Fetches current AQI data.      |
-| `/air_pollution/history?lat={lat}&lon={lon}&start={start}&end={end}` | Retrieves 24-hour AQI history. |
-
----
-
-## 🧬 **Core Functionality**
-
-### `updateAQI(lat, lng)`
-
-Fetches live AQI data, updates map visuals, and displays location-specific insights.
-
-### `updateChart(lat, lng)`
-
-Renders interactive 24-hour AQI trend charts.
-
-### `getHealthRecommendations(aqi)`
-
-Provides context-aware health advice based on AQI category.
-
-### `loadHeatmap()`
-
-Generates AQI intensity heatmaps across multiple regions.
-
-### `setTheme(theme)`
-
-Manages theme preferences with smooth transitions and persistent storage.
-
----
-
-## 🧰 **Dependencies**
-
-* **Express.js** – Web server and API handling
-* **Leaflet.js** – Interactive mapping
-* **Chart.js** – AQI trend visualization
-* **GeoSearch** – Geocoding and map search integration
-* **Heatmap.js** – Heatmap rendering
-* **dotenv** – Environment configuration
-* **CORS** – Cross-Origin Resource Sharing support
-
----
-
-## 👥 **Contributors**
+## 👩‍🚀 **NASA Space Apps 2025 Collaboration Team**
 
 | Role               | Contributor                                  |
 | ------------------ | -------------------------------------------- |
 | Project Lead       | [Your Name](https://github.com/yourusername) |
-| Backend Developer  | NASA Space Apps Team                         |
-| Frontend Developer | [Your Name / Team Member]                    |
+| Backend Developer  | NASA Space Apps 2025 Team                    |
+| Frontend Developer | [Team Member Name]                           |
+| UI/UX Designer     | [Contributor Name]                           |
 | API Provider       | [OpenWeatherMap](https://openweathermap.org) |
 
 ---
 
 ## 🏆 **Acknowledgments**
 
-* 🌍 *NASA Space Apps Challenge 2025* — for inspiring global environmental innovation.
-* ☁️ *OpenWeatherMap API* — for providing reliable environmental data.
-* 🗺️ *OpenStreetMap Community* — for open-source geographic mapping support.
+* 🌍 *NASA Space Apps Challenge 2025* — for inspiring global innovation.
+* ☁️ *OpenWeatherMap API* — for environmental data insights.
+* 🗺️ *OpenStreetMap* — for mapping infrastructure.
 
 ---
 
 ## 📜 **License**
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
 
 ---
 
-## 🔮 **Future Roadmap**
+## 🔮 **Future Enhancements**
 
-* 🤖 Predictive AQI forecasting using ML models.
-* 📱 PWA (Progressive Web App) for mobile accessibility.
-* 🗓️ Historical AQI comparison & trend analytics.
-* 🧑‍🤝‍🧑 Community-driven pollution reporting features.
+* 🤖 AI-driven AQI prediction.
+* 📱 Progressive Web App (PWA) version.
+* 🗓️ Historical AQI data explorer.
+* 🧑‍🤝‍🧑 Community-based pollution reporting.
 
 ---
 
-> *"Breathe better, live smarter — with AeroShield."* 🌤️
+> *"Collaborating for a cleaner atmosphere — AeroShield, powered by NASA Space Apps 2025."* 🚀
