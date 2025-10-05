@@ -142,6 +142,6 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
 ---
 <div align = "center">
   
-> *"Collaborating for a cleaner atmosphere — Team WalkBy."* 🚀
+> *"Presented by Team WalkBy."* 🚀
 
 </div>
