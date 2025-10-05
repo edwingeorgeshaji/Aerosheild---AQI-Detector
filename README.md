@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/edwingeorgeshaji/AeroShield-AQI-Detector/main/assets/aeroshield-banner.png" alt="AeroShield Banner" width="100%" />
-</p>
-
 # 🌍 **AeroShield – Advanced AQI Detection Dashboard**
 
 > **Real-time Air Quality Intelligence for a Healthier Planet.**
