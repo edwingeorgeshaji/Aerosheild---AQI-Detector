@@ -92,9 +92,6 @@ Run the backend server:
 npm start
 ```
 
-<p>Server runs at **[http://localhost:5010](http://localhost:5010)**. </p>
-<p>This link will redirect to the website 👉🏼 **[Aerosheild](https://aerosheild-aqi-detector.vercel.app/)**. </p>
-
 Open `index.html` in a browser or run via VS Code Live Server.
 
 ---
