@@ -93,6 +93,7 @@ npm start
 ```
 
 Server runs at **[http://localhost:5010](http://localhost:5010)**.
+This link will redirect to the website **[Aerosheild](https://aerosheild-aqi-detector.vercel.app/)**.
 
 Open `index.html` in a browser or run via VS Code Live Server.
 
