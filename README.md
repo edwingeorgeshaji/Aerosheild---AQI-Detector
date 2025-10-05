@@ -80,7 +80,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 ```bash
 git clone https://github.com/yourusername/AeroShield-AQI-Detector.git
 cd AeroShield-AQI-Detector
-cs Ding
+cd Ding
 npm install
 ```
 
@@ -102,6 +102,8 @@ Open `index.html` in a browser or run via VS Code Live Server.
 
 ## 👩‍🚀 **NASA Space Apps 2025 Collaboration Team**
 
+<div align = "center">
+
 | Role               | Contributor                                  |
 | ------------------ | -------------------------------------------- |
 | Project Lead       | [Karthik Raj](https://github.com/karthikrajj) |
@@ -109,7 +111,9 @@ Open `index.html` in a browser or run via VS Code Live Server.
 | Backend Developer II | [Joshin K Thomas](https://github.com/Joshin-07) |
 | Frontend Developer I | [Mariam Skaria](https://github.com/MariamSkaria) |
 | Frontend Developer II | [Junia Alex](https://github.com/JuniaAlex) |
-| UI/UX Designer     | [Malavika Krishnan](https://github.com/Malavika-Krishnan)                           |
+| UI/UX Designer     | [Malavika Krishnan](https://github.com/Malavika-Krishnan)  |
+
+</div>
 
 ---
 
