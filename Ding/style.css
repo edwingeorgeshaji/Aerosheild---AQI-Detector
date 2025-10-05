@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* HEADER */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box;
+}
+
+header .title {
+  flex-grow: 1;
+  text-align: left;
+}
+
+#theme-toggle {
+  padding: 6px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+/* MAIN LAYOUT */
+main {
+  margin-top: 70px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#map {
+  flex: 2;
+  height: 100%;
+}
+
+.info-panel {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto; /* Allow scrolling for content */
+  position: relative; 
+
+  /* --- DESKTOP: SLIDE-IN FROM RIGHT (HIDDEN STATE) --- */
+  max-width: 0;
+  opacity: 0;
+  padding: 20px 0;
+  border-left-width: 0;
+  border-left-style: solid;
+
+  /* --- ANIMATION --- */
+  transition: 
+    max-width 0.7s ease-in-out, 
+    opacity 0.5s 0.2s ease,
+    padding 0.7s ease-in-out, 
+    border-left-width 0.7s ease-in-out;
+}
+
+.info-panel.visible {
+  max-width: 550px;
+  opacity: 1;
+  padding: 20px;
+  border-left-width: 1px;
+}
+
+#close-panel-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #888;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#close-panel-btn:hover {
+  color: #333;
+}
+
+body.dark-theme #close-panel-btn {
+  color: #aaa;
+}
+
+body.dark-theme #close-panel-btn:hover {
+  color: #fff;
+}
+
+/* CARD STYLES */
+.card {
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.card.good { background: #2ecc71; }
+.card.moderate { background: #f1c40f; color: black; }
+.card.usg { background: #e67e22; }
+.card.unhealthy { background: #e74c3c; }
+.card.vunhealthy { background: #8e44ad; }
+.card.hazardous { background: #7f1d1d; }
+
+/* HEALTH RECOMMENDATIONS */
+#health-recommendations {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+#health-recommendations h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+#health-recommendations p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+body.dark-theme #health-recommendations {
+  border-top-color: #444;
+}
+
+/* LEGEND */
+.legend {
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 8px;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+body.dark-theme .legend {
+  border-top-color: #444;
+}
+
+.legend div { height: 18px; border-radius: 4px; }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* LIGHT THEME */
+body.light-theme {
+  background: #f4f6f9;
+  color: #222;
+}
+
+body.light-theme header {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: black;
+  color: black;
+}
+
+body.light-theme #theme-toggle {
+  background: #fff;
+  color: #000;
+}
+
+body.light-theme .info-panel {
+  background: #ffffff;
+  color: #000;
+  border-left-color: #ddd;
+}
+
+body.light-theme footer {
+  background: #2c3e50;
+  color: #fff;
+}
+
+/* DARK THEME */
+body.dark-theme {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark-theme header {
+  background: rgba(0, 0, 0, 0.6);
+  border-color: white;
+  color: white;
+}
+
+body.dark-theme #theme-toggle {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+body.dark-theme .info-panel {
+  background: #000;
+  color: #eee;
+  border-left-color: #444;
+}
+
+body.dark-theme footer {
+  background: #000;
+  color: white;
+}
+
+body.dark-theme .legend {
+  color: #f3f3f3;
+}
+
+/* DARK MODE SEARCH BAR */
+body.dark-theme .geosearch.bar form input {
+  background-color: #252525;
+  border-color: #555;
+  color: #0a0404;
+}
+
+body.dark-theme .geosearch .results {
+  background-color: #252525;
+  border-color: #555;
+}
+
+body.dark-theme .geosearch .results > * {
+  color: #ffffff;
+  border-bottom-color: #444;
+}
+
+body.dark-theme .geosearch .results > .active,
+body.dark-theme .geosearch .results > *:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  main { flex-direction: column; }
+  
+  .info-panel {
+    flex: none;
+    height: auto;
+    max-width: 100%;
+    max-height: 0;
+    border-top-width: 0;
+    border-top-style: solid;
+    border-left-width: 0;
+    transition: 
+      max-height 0.7s ease-in-out, 
+      opacity 0.5s 0.2s ease, 
+      padding 0.7s ease-in-out, 
+      border-top-width 0.7s ease-in-out;
+  }
+  
+  .info-panel.visible {
+    max-height: 450px; /* Increased height for new content */
+    border-top-width: 1px;
+    border-left-width: 0;
+  }
+  
+  body.light-theme .info-panel {
+    border-top-color: #ddd;
+  }
+  
+  body.dark-theme .info-panel {
+    border-top-color: #060505;
+  }
+}

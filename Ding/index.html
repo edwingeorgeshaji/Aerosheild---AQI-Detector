@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AeroShield Dashboard</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch@3.11.0/dist/geosearch.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme">
+  <header>
+    <span class="title">AeroShield Dashboard</span>
+    <button id="theme-toggle" title="Toggle Theme">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <div id="map"></div>
+
+    <div class="info-panel">
+      <button id="close-panel-btn" title="Close Panel">✖</button>
+
+      <div id="info-content">
+        <p>Click on the map or use the search bar to get AQI data for a location.</p>
+      </div>
+
+      <canvas id="aqi-chart" height="150"></canvas>
+
+      <div id="health-recommendations"></div>
+
+      <div class="legend">
+        <div style="background:#2ecc71"></div><span>Good (0-50)</span>
+        <div style="background:#f1c40f"></div><span>Moderate (51-100)</span>
+        <div style="background:#e67e22"></div><span>Unhealthy for Sensitive (101-150)</span>
+        <div style="background:#e74c3c"></div><span>Unhealthy (151-200)</span>
+        <div style="background:#8e44ad"></div><span>Very Unhealthy (201-300)</span>
+        <div style="background:#7f1d1d"></div><span>Hazardous (301+)</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>© 2025 AeroShield | NASA Space Apps Project</footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="https://unpkg.com/leaflet-geosearch@3.11.0/dist/geosearch.umd.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
