@@ -77,6 +77,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 ```bash
 git clone https://github.com/yourusername/AeroShield-AQI-Detector.git
 cd AeroShield-AQI-Detector
+cs Ding
 npm install
 ```
 
