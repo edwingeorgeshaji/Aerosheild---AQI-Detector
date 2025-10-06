@@ -67,7 +67,7 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 * One-click local AQI detection and mapping.
 
 ---
-
+ 
 ## 🧠 **Technology Overview**
 <div align = "center">
 
