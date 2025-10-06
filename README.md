@@ -22,7 +22,6 @@ AeroShield is a **collaborative NASA Space Apps 2025 project** that visualizes *
 
 ---
 
-
 ## ⚙️ **Tech Stack at a Glance**
 
 <p align="center">
