@@ -97,7 +97,7 @@ npm install
 Create a `.env` file:
 
 ```env
-OWM_KEY=your_openweathermap_api_key_here
+OWM_KEY=9c928ee0dae5eb40a149066e041c40a5
 ```
 
 Run the backend server:
